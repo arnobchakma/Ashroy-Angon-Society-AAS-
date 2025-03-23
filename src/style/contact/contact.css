@@ -1,0 +1,241 @@
+.contact_section h2 {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* For Social Share Icon Start */
+.contact_section .social_share_wrapper {
+  margin-bottom: 20px;
+}
+
+.contact_section .social_share_wrapper p {
+  text-align: right;
+  font-size: 16px;
+  color: #1b9d86;
+}
+
+.contact_section .social_share_wrapper .social_share_button {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 10px;
+  margin-top: 5px;
+}
+/* For Social Share Icon End */
+
+.contact_section .content_wrapper {
+  display: grid;
+  grid-template-columns: 40% auto;
+  grid-gap: 20px;
+  /* align-items: center; */
+  margin-bottom: 80px;
+}
+
+.contact_section .content_wrapper h3 {
+  font-size: 27px;
+  font-weight: 500;
+  margin-bottom: 25px;
+  color: black;
+}
+
+.contact_section .content_wrapper .office_details .home_address,
+.contact_section .content_wrapper .office_details .email,
+.contact_section .content_wrapper .office_details .phone,
+.contact_section .content_wrapper .office_details .connect {
+  width: 50%;
+  display: flex;
+  gap: 20px;
+}
+
+.contact_section .content_wrapper .office_details .phone {
+  margin-top: 20px;
+}
+
+.contact_section .content_wrapper .office_details h1 {
+  font-size: 18px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.contact_section .content_wrapper .office_details .head_office h4,
+.contact_section .content_wrapper .office_details .others_office h4 {
+  font-size: 22px;
+  padding: 0px 0px 15px 0px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+.contact_section .content_wrapper .office_details .home_address p,
+.contact_section .content_wrapper .office_details .email p,
+.contact_section .content_wrapper .office_details .phone p {
+  text-align: left;
+  color: black;
+}
+
+.contact_section .content_wrapper .office_details .home_icons {
+  border-radius: 50%;
+  color: #1b9d86;
+  font-size: 25px;
+  text-align: center;
+  padding: 5px 6px;
+}
+
+.contact_section .content_wrapper .office_details .email_icons {
+  border-radius: 50%;
+  color: #1b9d86;
+  font-size: 23px;
+  text-align: center;
+  padding: 5px 5px;
+}
+
+.contact_section .content_wrapper .office_details .phone_icons {
+  border-radius: 50%;
+  color: #1b9d86;
+  font-size: 25px;
+  text-align: center;
+  padding: 5px 7px;
+}
+
+.contact_section .content_wrapper .office_details .web_icons {
+  background-color: #1b9d86;
+  border-radius: 50%;
+  color: #f0f0f0;
+  font-size: 15px;
+  text-align: center;
+  padding: 5px 5px;
+}
+
+/* Social Media */
+.contact_section .content_wrapper .youtube {
+  padding: 6px 6px;
+  background: #c21111;
+  border-radius: 50%;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.contact_section .content_wrapper .youtube:hover {
+  background: #9e0e0e;
+}
+
+.contact_section .content_wrapper .facebook {
+  padding: 6px 7px;
+  background: #0a66c2;
+  border-radius: 50%;
+
+  color: white;
+  margin: 0px 10px;
+  transition: all 0.3s ease;
+}
+
+.contact_section .content_wrapper .facebook:hover {
+  background: #0a4d90;
+}
+
+.contact_section .content_wrapper .instagram {
+  padding: 6px 8px;
+  background: #bf3268;
+  border-radius: 50%;
+
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.contact_section .content_wrapper .instagram:hover {
+  background: #962450;
+}
+
+.contact_section .content_wrapper .twitter {
+  padding: 6px 7px;
+  background: #1da1f2;
+  border-radius: 50%;
+
+  color: white;
+  margin: 0px 10px;
+  transition: all 0.3s ease;
+}
+
+.contact_section .content_wrapper .twitter:hover {
+  background: #167fc1;
+}
+
+.contact_section .content_wrapper .linkedin {
+  padding: 6px 8px;
+  background: #1a3d9f;
+  border-radius: 50%;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.contact_section .content_wrapper .linkedin:hover {
+  background: #2356e2;
+}
+
+/* Email Part Start */
+.contact_section .email_wrapper h3 {
+  text-align: center;
+  font-size: 27px;
+  font-weight: 500;
+}
+
+.contact_section .email_wrapper .first_last_name {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  align-items: center;
+}
+
+.contact_section .email_wrapper .button {
+  background: #1b9d86;
+  padding: 8px 20px;
+  border-radius: 3px;
+  color: white;
+  transition: all 0.5s ease;
+}
+
+.contact_section .email_wrapper .button:hover {
+  background: #0f5649;
+  color: rgb(240, 240, 240);
+}
+/* Email Part End */
+
+/* Others Office Part */
+.contact_section .content_wrapper .office_details .others_office {
+  margin-top: 60px;
+}
+
+/* Media Query */
+@media only screen and (max-width: 1030px) {
+  .contact_section .content_wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .contact_section h2 {
+    font-size: 25px;
+  }
+
+  .comment_section .email_wrapper .first_last_name {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .contact_section .content_wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .contact_section .content_wrapper .office_details .home_address,
+  .contact_section .content_wrapper .office_details .email,
+  .contact_section .content_wrapper .office_details .phone,
+  .contact_section .content_wrapper .office_details .connect {
+    width: 100%;
+  }
+
+  .contact_section .content_wrapper .email_wrapper {
+    margin-top: 30px;
+  }
+}

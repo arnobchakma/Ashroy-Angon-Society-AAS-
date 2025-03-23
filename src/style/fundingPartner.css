@@ -1,0 +1,51 @@
+.fundingPartner_section {
+  margin-top: 80px;
+  background-color: white;
+}
+/* 
+.fundingPartner_section .funding_title img {
+  width: 80px;
+  background-color: #1b9d86;
+  padding: 12px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 5px;
+} */
+
+.fundingPartner_section .funding_title h2 {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 60px 0px 0px 0px;
+}
+
+.fundingPartner_section .funding_title p {
+  font-size: 16px;
+  text-align: center;
+  color: rgb(48, 48, 48);
+  margin: 10px 0px 30px 0px;
+  font-weight: 500;
+}
+
+.fundingPartner_section .partner_wrapper {
+  padding: 40px 0px;
+}
+
+.fundingPartner_section .image_wrapper {
+  display: flex;
+  padding: 25px;
+  gap: 40px;
+}
+
+.fundingPartner_section .image_wrapper img {
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  transition: all 0.7s ease;
+}
+
+.fundingPartner_section .image_wrapper img:hover {
+  border-radius: 5px;
+  transform: scale(1.2);
+}

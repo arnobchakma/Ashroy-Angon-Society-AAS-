@@ -1,0 +1,70 @@
+/* Header Background Part Start */
+.finance_section .header_background {
+  background-color: #a6d9cf72;
+  height: 300px;
+}
+
+.finance_section .wrapper {
+  display: grid;
+}
+
+.finance_section .wrapper h2 {
+  padding-top: 120px;
+  font-size: 50px;
+}
+
+.finance_section .wrapper .social_share_button {
+  justify-self: end;
+  display: flex;
+  gap: 12px;
+}
+/* Header Background Part End */
+
+.finance_section .finance_wrapper {
+  margin: 40px 0px 70px 0px;
+}
+
+.finance_section .finance_wrapper h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 60px;
+}
+
+.finance_section .finance_wrapper .content_wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+
+.finance_section .finance_wrapper .content_wrapper .image {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background: #2a9d8f;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.finance_section .finance_wrapper .content_wrapper .image img {
+  width: 250px;
+  border-radius: 50%;
+  height: 250px;
+  padding: 10px;
+}
+
+.finance_section .finance_wrapper .content_wrapper .title_wrapper {
+  width: 80%;
+  text-align: center;
+  margin: 15px auto 0px auto;
+}
+
+.finance_section .finance_wrapper .content_wrapper .title_wrapper h4 {
+  font-weight: 500;
+  text-align: center;
+  font-size: 18px;
+}
+
+.finance_section .finance_wrapper .content_wrapper .title_wrapper p {
+  text-align: center;
+}

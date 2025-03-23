@@ -1,0 +1,29 @@
+/* Header Background Part Start */
+.professional_volunter_section .header_background {
+  background-color: #a6d9cf72;
+  height: 300px;
+}
+
+.professional_volunter_section .wrapper {
+  display: grid;
+}
+
+.professional_volunter_section .wrapper h2 {
+  padding-top: 120px;
+  font-size: 50px;
+}
+
+.professional_volunter_section .wrapper .social_share_button {
+  justify-self: end;
+  display: flex;
+  gap: 12px;
+}
+/* Header Background Part End */
+
+.professional_volunter_section .professional_volunter_wrapper {
+  margin: 40px 0px 70px 0px;
+}
+
+.professional_volunter_section .professional_volunter_wrapper h2 {
+  font-size: 30px;
+}

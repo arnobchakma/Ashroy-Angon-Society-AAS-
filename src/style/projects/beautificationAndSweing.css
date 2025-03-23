@@ -1,0 +1,58 @@
+.beautification_and_sweing_section .header_background {
+  background-color: #a6d9cf72;
+  height: 300px;
+}
+
+.beautification_and_sweing_section .wrapper {
+  display: grid;
+}
+
+.beautification_and_sweing_section .wrapper h2 {
+  padding-top: 120px;
+  font-size: 40px;
+}
+
+.beautification_and_sweing_section .wrapper .social_share_button {
+  justify-self: end;
+  display: flex;
+  gap: 12px;
+  margin-top: 15px;
+}
+/* Header Background Part End */
+
+.beautification_and_sweing_section {
+  background: #f6f6f6;
+  padding: 0px 0px 70px 0px;
+}
+
+.beautification_and_sweing_section h3 {
+  margin-bottom: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 60px;
+}
+
+.beautification_and_sweing_section .content_wrapper p {
+  font-size: 22px;
+  text-align: center;
+}
+
+/* Media Query */
+@media only screen and (max-width: 1030px) {
+  .beautification_and_sweing_section h2 {
+    font-size: 23px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .beautification_and_sweing_section .header_background .social_share_button {
+    margin-top: 20px;
+  }
+
+  .beautification_and_sweing_section .wrapper h2 {
+    font-size: 30px;
+    padding-top: 100px;
+  }
+}

@@ -1,0 +1,54 @@
+.basic_literacy_section .header_image {
+  background-image: url("../images/literacy.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 500px;
+}
+
+.basic_literacy_section .heading {
+  border-bottom: 1px solid gainsboro;
+}
+
+.basic_literacy_section .heading .program {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: rgb(107, 107, 107);
+  margin: 40px 0px;
+}
+
+.basic_literacy_section .heading h2 {
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 500;
+  letter-spacing: -3px;
+}
+
+.basic_literacy_section .content_wrapper p {
+  margin-top: 30px;
+}
+
+/* For Social Share Icon */
+.basic_literacy_section .social_wrapper p {
+  margin-top: 20px;
+  text-align: right;
+  font-size: 16px;
+  color: #1b9d86;
+}
+.basic_literacy_section .social_wrapper .social_share_button {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+@media only screen and (max-width: 1030px) {
+  .basic_literacy_section h2 {
+    font-size: 27px;
+  }
+}

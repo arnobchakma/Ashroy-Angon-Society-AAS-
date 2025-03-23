@@ -1,0 +1,44 @@
+.translate_section {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.translate_section .gt_selected {
+  width: 200px;
+  height: 33px;
+  background: #ffffff;
+  border: 1px solid #b3b3b3;
+}
+
+.translate_section .icon_and_image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.translate_section .icon_and_image .arrow_icons {
+  margin-right: 10px;
+  color: #7b7b7b;
+}
+
+.translate_section .gt_selected img,
+.translate_section .gt_option img {
+  width: 24px;
+  height: 18px;
+}
+
+.translate_section .gt_selected a,
+.translate_section .gt_option a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 2px 5px;
+}
+
+.translate_section .gt_option a {
+  background-color: aliceblue;
+  border-bottom: 1px solid gainsboro;
+}

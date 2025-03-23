@@ -1,0 +1,29 @@
+/* Header Background Part Start */
+.interview_section .header_background {
+  background-color: #a6d9cf72;
+  height: 300px;
+}
+
+.interview_section .wrapper {
+  display: grid;
+}
+
+.interview_section .wrapper h2 {
+  padding-top: 120px;
+  font-size: 50px;
+}
+
+.interview_section .wrapper .social_share_button {
+  justify-self: end;
+  display: flex;
+  gap: 12px;
+}
+/* Header Background Part End */
+
+.interview_section .interview_wrapper {
+  margin: 40px 0px 70px 0px;
+}
+
+.interview_section .interview_wrapper h2 {
+  font-size: 30px;
+}

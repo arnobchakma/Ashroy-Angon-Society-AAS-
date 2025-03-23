@@ -1,0 +1,29 @@
+/* Header Background Part Start */
+.upcoming_event_section .header_background {
+  background-color: #a6d9cf72;
+  height: 300px;
+}
+
+.upcoming_event_section .wrapper {
+  display: grid;
+}
+
+.upcoming_event_section .wrapper h2 {
+  padding-top: 120px;
+  font-size: 50px;
+}
+
+.upcoming_event_section .wrapper .social_share_button {
+  justify-self: end;
+  display: flex;
+  gap: 12px;
+}
+/* Header Background Part End */
+
+.upcoming_event_section .upcoming_event_wrapper {
+  margin: 40px 0px 70px 0px;
+}
+
+.upcoming_event_section .upcoming_event_wrapper h2 {
+  font-size: 30px;
+}

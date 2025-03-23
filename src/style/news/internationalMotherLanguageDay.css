@@ -1,0 +1,148 @@
+.mother_manguage_day_section {
+  padding-top: 80px;
+  background-color: white;
+}
+
+.mother_manguage_day_section .blog_title h6 {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.mother_manguage_day_section .blog_title h2 {
+  font-weight: 600;
+  font-size: 50px;
+  margin-top: 60px;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.mother_manguage_day_section .blog_title h3 {
+  font-weight: 600;
+  font-size: 15px;
+  margin: 20px 0px;
+}
+
+.mother_manguage_day_section .image_part {
+  padding: 10px;
+}
+
+.mother_manguage_day_section .image_part .header_image {
+  background-image: url("../../images/Blogs-photo/21.02.2024/21st-february.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 600px;
+}
+
+/* For Social Share Icon Start */
+.mother_manguage_day_section .social_share_wrapper {
+  margin: 30px 0px;
+}
+
+.mother_manguage_day_section .social_share_wrapper .social_share_button {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 10px;
+  margin-top: 5px;
+}
+/* For Social Share Icon End */
+
+.mother_manguage_day_section .image_part p {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 0px 50px 30px 50px;
+  font-size: 17px;
+  color: rgb(79, 79, 79);
+  border-bottom: 1px solid black;
+}
+
+.mother_manguage_day_section .content_wrapper p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.mother_manguage_day_section .content_wrapper .extra_image {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  margin: 30px 0px;
+}
+
+.mother_manguage_day_section .content_wrapper .extra_image {
+  width: 100%;
+  padding: 20px;
+}
+
+.mother_manguage_day_section .content_wrapper button {
+  margin: 50px 0px 30px 0px;
+}
+
+/* This part is for only hover action Start */
+.mother_manguage_day_section .content_wrapper button a {
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.mother_manguage_day_section .content_wrapper button a::before,
+.mother_manguage_day_section .content_wrapper button a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+.mother_manguage_day_section .content_wrapper button a::before {
+  background-color: #009f52;
+  height: 2px;
+  bottom: 0;
+  transform-origin: 100% 50%;
+  transform: scaleX(0);
+  transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
+.mother_manguage_day_section .content_wrapper button a::after {
+  content: attr(data-replace);
+  height: 100%;
+  top: 0;
+  transform-origin: 100% 50%;
+  transform: translate3d(200%, 0, 0);
+  transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+  color: #009f52;
+}
+
+.mother_manguage_day_section .content_wrapper button a:hover::before {
+  transform-origin: 0% 50%;
+  transform: scaleX(1);
+}
+.mother_manguage_day_section .content_wrapper button a:hover::after {
+  transform: translate3d(0, 0, 0);
+}
+
+.mother_manguage_day_section .content_wrapper button a span {
+  display: inline-block;
+  font-weight: 600;
+  transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.mother_manguage_day_section .content_wrapper button a:hover span {
+  transform: translate3d(-200%, 0, 0);
+}
+/* This part is for only hover action End */
+
+@media only screen and (max-width: 1030px) {
+  .mother_manguage_day_section .content_wrapper .extra_image {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .mother_manguage_day_section .blog_title h2 {
+    font-size: 30px;
+  }
+
+  .mother_manguage_day_section .content_wrapper .extra_image {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

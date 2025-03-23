@@ -1,0 +1,29 @@
+/* Header Background Part Start */
+.vendors_list_section .header_background {
+  background-color: #a6d9cf72;
+  height: 300px;
+}
+
+.vendors_list_section .wrapper {
+  display: grid;
+}
+
+.vendors_list_section .wrapper h2 {
+  padding-top: 120px;
+  font-size: 50px;
+}
+
+.vendors_list_section .wrapper .social_share_button {
+  justify-self: end;
+  display: flex;
+  gap: 12px;
+}
+/* Header Background Part End */
+
+.vendors_list_section .vendors_list_wrapper {
+  margin: 40px 0px 70px 0px;
+}
+
+.vendors_list_section .vendors_list_wrapper h2 {
+  font-size: 30px;
+}

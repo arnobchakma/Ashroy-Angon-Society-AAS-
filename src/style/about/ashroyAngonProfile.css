@@ -1,0 +1,91 @@
+.profile_section .header_image {
+  background-image: url("../../images/office-image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 600px;
+}
+
+/* For Social Share Icon Start */
+.profile_section .social_share_button {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 10px;
+  margin-top: 25px;
+}
+/* For Social Share Icon End */
+
+.profile_section h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+  margin: 40px 0px;
+}
+
+.profile_section .history h3 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.profile_section .history p {
+  margin: 10px 0px;
+}
+
+.profile_section .content_wrapper {
+  /* padding: 0px 0px 70px 0px; */
+  width: 80%;
+  margin: 0 auto;
+}
+
+.profile_section .content_wrapper img {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+/* 
+.profile_section .content_wrapper .single_content_wrapper {
+  display: grid;
+  grid-template-columns: 20% auto;
+  grid-gap: 10px;
+  padding: 15px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  background-color: white;
+  box-shadow: 0px 2px 6px -4px #c5c5c5;
+}
+
+.profile_section .content_wrapper .single_content_wrapper .right_content {
+  border-left: 2px solid rgb(167, 167, 167);
+  padding-left: 10px;
+}
+
+.profile_section .content_wrapper .single_content_wrapper h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.profile_section .content_wrapper .single_content_wrapper h4 {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.profile_section .content_wrapper .single_content_wrapper span {
+  color: black;
+  font-weight: 500;
+  line-height: 33px;
+} */
+
+/* Media Query */
+@media only screen and (max-width: 1030px) {
+  .profile_section h2 {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .profile_section .content_wrapper {
+    width: 100%;
+  }
+}

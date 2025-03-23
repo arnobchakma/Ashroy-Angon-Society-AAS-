@@ -1,0 +1,64 @@
+/* Header Background Part Start */
+.focusArea_section .header_background {
+  background-color: #a6d9cf72;
+  height: 300px;
+}
+
+.focusArea_section .wrapper {
+  display: grid;
+}
+
+.focusArea_section .wrapper h2 {
+  padding-top: 120px;
+  font-size: 50px;
+}
+
+.focusArea_section .wrapper .social_share_button {
+  justify-self: end;
+  display: flex;
+  gap: 12px;
+}
+/* Header Background Part End */
+
+.focusArea_section .focusArea_wrapper {
+  margin: 40px 0px 70px 0px;
+}
+
+.focusArea_section .focusArea_wrapper h2 {
+  font-size: 40px;
+  font-weight: 500;
+  margin: 20px 0px 40px 0px;
+  text-align: center;
+}
+
+.focusArea_section .focusArea_wrapper .content_wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.focusArea_section .focusArea_wrapper .content_wrapper .single {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+
+.focusArea_section .focusArea_wrapper .content_wrapper .single .icons {
+  color: #1b9d86;
+  font-size: 18px;
+}
+
+.focusArea_section .focusArea_wrapper .content_wrapper .single p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 800px) {
+  .focusArea_section .wrapper h2 {
+    font-size: 30px;
+  }
+
+  .focusArea_section .focusArea_wrapper .content_wrapper {
+    width: 100%;
+  }
+}

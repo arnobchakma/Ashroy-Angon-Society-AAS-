@@ -1,0 +1,51 @@
+.constitution_section .header_background {
+  background-color: #a6d9cf72;
+  height: 300px;
+}
+
+.constitution_section .wrapper {
+  display: grid;
+}
+
+.constitution_section .wrapper h2 {
+  padding-top: 120px;
+  font-size: 50px;
+}
+
+.constitution_section .wrapper .social_share_button {
+  justify-self: end;
+  display: flex;
+  gap: 12px;
+}
+/* Header Background Part End */
+
+.constitution_section .image_wrapper {
+  margin-top: 50px;
+}
+
+.constitution_section img {
+  width: 80%;
+  margin: 0 auto;
+  background: white;
+  padding: 15px;
+  border: 1px solid gainsboro;
+  box-shadow: 0px 0px 7px 2px #e6e6e6;
+  margin-bottom: 50px;
+}
+
+/* Meida Query */
+@media only screen and (max-width: 1030px) {
+  .constitution_section h2 {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .constitution_section .header_background .social_share_button {
+    margin-top: 20px;
+  }
+
+  .constitution_section .wrapper h2 {
+    font-size: 30px;
+  }
+}

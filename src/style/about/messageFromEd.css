@@ -1,0 +1,91 @@
+.message_from_ed_section .header_background {
+  background-color: #a6d9cf72;
+  height: 300px;
+}
+
+.message_from_ed_section .wrapper {
+  display: grid;
+}
+
+.message_from_ed_section .header_background p {
+  padding-top: 100px;
+  font-size: 17px;
+}
+
+.message_from_ed_section h2 {
+  font-size: 55px;
+}
+
+.message_from_ed_section .wrapper .social_share_button {
+  justify-self: end;
+  display: flex;
+  gap: 12px;
+}
+/* Header Background Part End */
+
+.message_from_ed_section .content_wrapper {
+  display: grid;
+  grid-template-columns: 30% 68%;
+  grid-gap: 20px;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.message_from_ed_section .left_content {
+  width: 70%;
+}
+
+.message_from_ed_section .left_content img {
+  width: 100%;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+}
+
+.message_from_ed_section .left_content .content {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.message_from_ed_section .left_content .content h3 {
+  font-weight: 600;
+  font-size: 19px;
+}
+
+.message_from_ed_section .left_content .content p {
+  text-align: center;
+}
+
+.message_from_ed_section .ed_article {
+  margin: 30px 0px 70px 0px;
+}
+
+.message_from_ed_section .ed_article p {
+  text-align: left;
+  line-height: 25px;
+}
+
+.message_from_ed_section .ed_article .top_margin {
+  padding: 10px 0px;
+}
+
+/* Media Query */
+@media only screen and (max-width: 1030px) {
+  .message_from_ed_section .content_wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .message_from_ed_section .left_content img {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .message_from_ed_section .header_background .social_share_button {
+    margin-top: 20px;
+  }
+
+  .message_from_ed_section h2 {
+    font-size: 30px;
+  }
+}

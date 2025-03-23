@@ -1,0 +1,64 @@
+.the_ain_shohayota_activity_section .header_background {
+  background-color: #a6d9cf72;
+  height: 300px;
+}
+
+.the_ain_shohayota_activity_section .wrapper {
+  display: grid;
+}
+
+.the_ain_shohayota_activity_section .wrapper h2 {
+  padding-top: 120px;
+  font-size: 50px;
+}
+
+.the_ain_shohayota_activity_section .wrapper .social_share_button {
+  justify-self: end;
+  display: flex;
+  gap: 12px;
+}
+/* Header Background Part End */
+
+.the_ain_shohayota_activity_section h3 {
+  margin-bottom: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 60px;
+}
+
+.the_ain_shohayota_activity_section {
+  background: #f6f6f6;
+  padding: 0px 0px 70px 0px;
+}
+
+.the_ain_shohayota_activity_section .content_wrapper table {
+  width: 100%;
+}
+
+.the_ain_shohayota_activity_section .content_wrapper table thead tr th,
+.the_ain_shohayota_activity_section .content_wrapper table tbody tr td {
+  padding: 20px;
+  border: 1px solid #eeeeee;
+  background-color: white;
+  box-shadow: 0px 4px 6px -6px #c5c5c5;
+}
+
+/* Media Query */
+@media only screen and (max-width: 1030px) {
+  .the_ain_shohayota_activity_section h2 {
+    font-size: 23px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .the_ain_shohayota_activity_section .header_background .social_share_button {
+    margin-top: 20px;
+  }
+
+  .the_ain_shohayota_activity_section .wrapper h2 {
+    font-size: 30px;
+    padding-top: 100px;
+  }
+}

@@ -1,0 +1,99 @@
+.vision_mission_section .header_background {
+  background-color: #a6d9cf72;
+  height: 300px;
+}
+
+.vision_mission_section .wrapper {
+  display: grid;
+}
+
+.vision_mission_section .wrapper h2 {
+  padding-top: 120px;
+  font-size: 50px;
+}
+
+.vision_mission_section .wrapper .social_share_button {
+  justify-self: end;
+  display: flex;
+  gap: 12px;
+}
+/* Header Background Part End */
+
+.vision_mission_section .content_wrapper .mission {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.vision_mission_section .content_wrapper .mission .mission_right_image img {
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.vision_mission_section .content_wrapper .vision {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0px 70px 0px;
+}
+
+.vision_mission_section .content_wrapper .mission h3 {
+  margin-bottom: 10px;
+  font-size: 27px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.vision_mission_section .content_wrapper .vision .single_vision {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.vision_mission_section .content_wrapper .vision h3 {
+  margin: 50px 0px 10px 0px;
+  font-size: 27px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.vision_mission_section .content_wrapper img {
+  width: 60%;
+  cursor: pointer;
+}
+
+/* Media Query */
+@media only screen and (max-width: 1030px) {
+  .vision_mission_section .content_wrapper .mission,
+  .vision_mission_section .content_wrapper .vision {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .vision_mission_section h2 {
+    font-size: 25px;
+  }
+
+  .vision_mission_section .content_wrapper h3 {
+    text-align: center;
+  }
+
+  .vision_mission_section .content_wrapper img {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .vision_mission_section .header_background .social_share_button {
+    margin-top: 20px;
+  }
+
+  .vision_mission_section .wrapper h2 {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,50 @@
+.adb_cms_number_section .header_background {
+  background-color: #a6d9cf72;
+  height: 300px;
+}
+
+.adb_cms_number_section .wrapper {
+  display: grid;
+}
+
+.adb_cms_number_section .wrapper h2 {
+  padding-top: 120px;
+  font-size: 50px;
+}
+
+.adb_cms_number_section .wrapper .social_share_button {
+  justify-self: end;
+  display: flex;
+  gap: 12px;
+}
+
+/* Header Background Part End */
+.adb_cms_number_section .content_wrapper {
+  padding: 70px 0px;
+}
+
+.adb_cms_number_section .content_wrapper .cms_number h4 {
+  background-color: #35b9a1;
+  text-align: center;
+  padding: 20px;
+  border-radius: 2px;
+  color: white;
+  font-size: 22px;
+}
+
+/* Media Query */
+@media only screen and (max-width: 1030px) {
+  .adb_cms_number_section h2 {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .adb_cms_number_section .header_background .social_share_button {
+    margin-top: 20px;
+  }
+
+  .adb_cms_number_section .wrapper h2 {
+    font-size: 25px;
+  }
+}

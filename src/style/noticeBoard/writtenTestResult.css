@@ -1,0 +1,29 @@
+/* Header Background Part Start */
+.written_result_section .header_background {
+  background-color: #a6d9cf72;
+  height: 300px;
+}
+
+.written_result_section .wrapper {
+  display: grid;
+}
+
+.written_result_section .wrapper h2 {
+  padding-top: 120px;
+  font-size: 50px;
+}
+
+.written_result_section .wrapper .social_share_button {
+  justify-self: end;
+  display: flex;
+  gap: 12px;
+}
+/* Header Background Part End */
+
+.written_result_section .written_result_wrapper {
+  margin: 40px 0px 70px 0px;
+}
+
+.written_result_section .written_result_wrapper h2 {
+  font-size: 30px;
+}

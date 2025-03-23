@@ -1,0 +1,12 @@
+.social_media_section {
+  margin-top: 60px;
+}
+
+.social_media_section .content_wrapper {
+  background-color: rgb(37, 170, 188);
+  /* margin-bottom: -10px; */
+}
+
+.social_media_section .content_wrapper h2 {
+  font-size: 27px;
+}

@@ -1,0 +1,91 @@
+.advisory_board_section .header_background {
+  background-color: #a6d9cf72;
+  height: 300px;
+}
+
+.advisory_board_section .wrapper {
+  display: grid;
+}
+
+.advisory_board_section .wrapper h2 {
+  padding-top: 120px;
+  font-size: 50px;
+}
+
+.advisory_board_section .wrapper .social_share_button {
+  justify-self: end;
+  display: flex;
+  gap: 12px;
+}
+/* Header Background Part End */
+
+.advisory_board_section .title_header {
+  margin-top: 50px;
+}
+
+.advisory_board_section .content_wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  margin: 70px 0px;
+}
+
+.advisory_board_section .content_wrapper img {
+  width: 60%;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 10px;
+  background: linear-gradient(45deg, #009f52, transparent);
+}
+
+.advisory_board_section
+  .content_wrapper
+  .single_content_wrapper
+  .title_wrapper {
+  /* background: #1b9d8680; */
+  padding: 5px 0px;
+}
+
+.advisory_board_section
+  .content_wrapper
+  .single_content_wrapper
+  .title_wrapper
+  h4 {
+  text-align: center;
+  color: black;
+}
+
+.advisory_board_section
+  .content_wrapper
+  .single_content_wrapper
+  .title_wrapper
+  p {
+  text-align: center;
+  color: black;
+}
+
+/* Media Query */
+@media only screen and (max-width: 1030px) {
+  .advisory_board_section .content_wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .advisory_board_section h2 {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .advisory_board_section .content_wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .advisory_board_section .header_background .social_share_button {
+    margin-top: 20px;
+  }
+
+  .advisory_board_section .wrapper h2 {
+    font-size: 30px;
+  }
+}

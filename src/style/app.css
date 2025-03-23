@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  /* background-color: #7d7d7d; */
+  background: linear-gradient(#ba4dbe, #4de4c8);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(#4de4c8, #e172e5);
+}
+
+body {
+  /* font-family: "Montserrat", sans-serif; */
+  /* font-family: "Roboto", sans-serif; */
+  /* font-family: "Be Vietnam Pro", sans-serif; */
+  /* font-family: "Assistant", sans-serif; */
+  font-family: "Quicksand", sans-serif;
+  background: #f7f7f7;
+}
+
+p {
+  text-align: left;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px 3rem;
+}
+
+h2 {
+  font-weight: 600;
+}

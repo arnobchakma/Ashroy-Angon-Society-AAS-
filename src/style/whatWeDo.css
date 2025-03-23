@@ -1,0 +1,83 @@
+.what_we_do_section {
+  margin-top: 50px;
+}
+
+.what_we_do_section h2 {
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.what_we_do_section .content_wrapper {
+  background-color: white;
+  padding: 50px 0px;
+}
+
+.what_we_do_section .inside_image_wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+
+.what_we_do_section .single_image_wrapper {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.what_we_do_section .single_image_wrapper img {
+  max-width: 100%;
+  cursor: pointer;
+}
+
+.what_we_do_section .single_image_wrapper .caption {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: white;
+  font-size: 20px;
+  width: 100%;
+  height: 54px;
+  background-color: rgba(0, 0, 0, 0.562);
+  opacity: 1;
+  transition: opacity 0.5s ease;
+  overflow: hidden;
+}
+
+.what_we_do_section .single_image_wrapper .caption span {
+  font-size: 17px;
+  display: grid;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.what_we_do_section .border {
+  margin-top: 75px;
+  width: 100%;
+  height: 6px;
+  background: green;
+}
+
+@media only screen and (max-width: 1030px) {
+  .what_we_do_section .inside_image_wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .what_we_do_section h2 {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .what_we_do_section .inside_image_wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .what_we_do_section .single_image_wrapper {
+    margin-bottom: 30px;
+  }
+}

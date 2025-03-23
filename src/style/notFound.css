@@ -1,0 +1,28 @@
+.not_found_section {
+  margin: 200px auto;
+  margin-top: 160px;
+}
+
+.not_found_section h4 {
+  text-align: center;
+  color: rgb(245, 75, 75);
+  font-size: 25px;
+}
+
+.not_found_section h3 {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.not_found_section .back_icon {
+  margin-right: 10px;
+  color: #a03737;
+}
+
+.not_found_section a {
+  background: #1b9d86;
+  padding: 10px 40px;
+  color: white;
+  font-size: 20px;
+  border-radius: 4px;
+}

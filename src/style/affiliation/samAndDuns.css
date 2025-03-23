@@ -1,0 +1,60 @@
+.sam_and_duns_section .header_background {
+  background-color: #a6d9cf72;
+  height: 300px;
+}
+
+.sam_and_duns_section .wrapper {
+  display: grid;
+}
+
+.sam_and_duns_section .wrapper h2 {
+  padding-top: 120px;
+  font-size: 50px;
+}
+
+.sam_and_duns_section .wrapper .social_share_button {
+  justify-self: end;
+  display: flex;
+  gap: 12px;
+}
+
+/* Header Background Part End */
+.sam_and_duns_section .content_wrapper {
+  padding: 70px 0px;
+}
+
+.sam_and_duns_section .content_wrapper .sam h4 {
+  background-color: #35b9a1;
+  text-align: center;
+  padding: 20px;
+  border-radius: 2px;
+  color: white;
+  font-size: 22px;
+}
+
+.sam_and_duns_section .content_wrapper .duns h4 {
+  background-color: #35b9a1;
+  text-align: center;
+  padding: 20px;
+  border-radius: 2px;
+  color: white;
+  font-size: 22px;
+  margin-top: 40px;
+}
+
+/* Media Query */
+@media only screen and (max-width: 1030px) {
+  .sam_and_duns_section h2 {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .sam_and_duns_section .header_background .social_share_button {
+    margin-top: 20px;
+  }
+
+  .sam_and_duns_section .wrapper h2 {
+    font-size: 25px;
+  }
+}
